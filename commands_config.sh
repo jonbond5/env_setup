@@ -5,4 +5,5 @@ echo "Done..."
 echo "Writing cls..........."
 printf "clear\nls --color=always" | sudo tee /usr/local/bin/cls > /dev/null
 sudo chmod u+x /usr/local/bin/cls
+sudo chown $USER /usr/local/bin/cls /usr/local/bin/sys-update
 echo "Done..."
